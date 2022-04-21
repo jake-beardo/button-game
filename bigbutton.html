@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<script>
+    function makePlumPhrase() {
+        var arr = [
+            "I am your plum", 
+            "You are a plum", 
+            "Thou shall love thou Plum", 
+            "Plummer", 
+            "Indoor Plumming", 
+            "Outdoor Plumming",
+            "I love you tiny plums",
+            "Plant a plum tree",
+            "Mario is a good Plummer",
+            "Plum to meet you!",
+            "Plum up you Bum, Whoops...",
+            "I lost my plum 5 years ago",
+            "My plum went out to buy a pack of ciggys and never came home :(("
+        ]
+        document.getElementById("plum_phrase").innerHTML = (arr[Math.floor(Math.random() * arr.length)]);
+
+
+    }
+</script>
+<head>
+    <title>Big Button Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><img src="images/plums.png" alt="Logo"></li>
+                <li><a href="bigbutton.html">Big B</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="center">
+              <button class="big" id = "button" onclick = "makePlumPhrase()">Press Me You Plum</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="center">
+              <h1><span id="plum_phrase"></span></h1>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+    
+</html>

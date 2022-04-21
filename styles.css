@@ -51,12 +51,17 @@ section button {
     background-color: red;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    height: 300px;
+    height: 250px;
     width: 350px;
     left: 50%;
     text-align: center;
     position: center;
 }
+
+.big{
+    height: 350px;
+    width: 450px;
+} 
 
 button:hover {
     background-color: orangered;
@@ -78,5 +83,6 @@ button:hover {
 
 .container .center h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     font-size: 70px;
 }
