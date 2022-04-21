@@ -7,6 +7,11 @@ body {
     flex-direction: column;
 }
 
+nav[role="navigation"] {
+    display: flex;
+    justify-content: space-around;
+}
+
 header {
     padding: 0px;
     margin: 20px;
