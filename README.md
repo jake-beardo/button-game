@@ -1,3 +1,3 @@
-# Welcome to Microblog!
+# Plum Button Site
 
-This is an example application featured in my [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world). See the tutorial for instructions on how to work with it.
+This is a simple site I made just to prove I can do basic web design in CSS and HTML with an integrated JavaScript function. Enjoy
