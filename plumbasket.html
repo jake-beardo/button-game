@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<script src="js/rain.js"></script>
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/nav.js"></script>
+</head>
+<script>
+    // this part can also be part of nav.js 
+    window.addEventListener('DOMContentLoaded', () => {
+      let barnav = document.querySelector('nav[role="navigation"]');
+      barnav.innerHTML = nav;
+    });
+</script>
+<body>
+    <header>
+        <nav role="navigation"></nav>
+    </header>
+
+    <section>
+        <button id = "button" onclick = "makeItRain()">Make it Rain</button>
+        <div class="container">
+            <div class="center">
+                
+                <script>
+                    // execute html code made by js function 
+                    // have an input area where the user can guess how many plums there are 
+                </script>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+    
+</html>
