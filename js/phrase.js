@@ -1,4 +1,6 @@
-
+/**
+ * Generates a random phrase about plums
+ */
 function makePlumPhrase() {
     var arr = [
         "I am your plum", 
