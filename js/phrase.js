@@ -18,6 +18,4 @@ function makePlumPhrase() {
         "My plum went out to buy a pack of ciggys and never came home :(("
     ]
     document.getElementById("plum_phrase").innerHTML = (arr[Math.floor(Math.random() * arr.length)]);
-
-
 }
